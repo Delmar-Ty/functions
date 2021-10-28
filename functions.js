@@ -23,9 +23,9 @@ function EvenOdd(a) {
 
 function palindrome(q) {
     var array1 = q.split("");
-    var array2 = array1.reverse();
-    var final = array2.join("");
-    if (final == q) {
+    var final = array1.reverse();
+    var final = array1.join("");
+    if (final === q) {
         document.getElementById('hello').innerHTML = "Is a plaindrome";
     } else {
         document.getElementById('hello').innerHTML = "Not palindrome";
