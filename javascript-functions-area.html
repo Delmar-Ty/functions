@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Functions Area Of A Circle</title>
+
+    <script src="JavaScript/functions.js"></script>
+</head>
+<body>
+    <label for="circle-area">Area of a circle</label>
+    <input type="number" placeholder="Enter A Radius" id="circle-area">
+    <button onclick="circleArea(document.getElementById('circle-area').value)">Enter</button>
+    <p id="area"></p><br><br>
+
+    <label for="">Compare 2 numbers</label>
+    <input type="number" id="number1" placeholder="Num 1">
+    <input type="number" id="number2" placeholder="Num 2">
+    <button onclick="compare(document.getElementById('number1').value, document.getElementById('number2').value)">Compare</button>
+    <p id="compared"></p><br><br>
+
+    <label for="">Even Or Odd</label>
+    <input type="number" id="even-odd" placeholder="Enter a number">
+    <button onclick="EvenOdd(document.getElementById('even-odd').value)">Evaluate</button>
+    <p id="result"></p><br><br>
+
+    <label for="palin">Palindrome</label>
+    <input type="text" id="palin" placeholder="Enter a string">
+    <button onclick="palindrome(document.getElementById('palin').value)">Evaluate</button>
+    <p id="hello"></p>
+</body>
+</html>
